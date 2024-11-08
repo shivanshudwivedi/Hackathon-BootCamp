@@ -5,10 +5,10 @@ import json
 import time
 
 # Configuration
-WEATHER_API_KEY = "02b431baf5364d3bac0185742240711"
-HUGGINGFACE_API_KEY = "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"
-SUPABASE_URL = "https://fbjipuqtyfcojoutdbnw.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZiamlwdXF0eWZjb2pvdXRkYm53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA3NjYxOTYsImV4cCI6MjA0NjM0MjE5Nn0.xxpxQ-fZhWI7HrUKU7-m8ljKqaEhnjM1XPa07O_Lgj4"
+WEATHER_API_KEY = "YOUR_WEATHER_API_KEY" 
+HUGGINGFACE_API_KEY = "YOUR_HUGGINGFACE_API_KEY"
+SUPABASE_URL = "YOUR_SUPABASE_URL"
+SUPABASE_KEY = "YOUR_SUPABASE_KEY"
 
 def get_weather_data(city):
     """Get current weather data for a city"""

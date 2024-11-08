@@ -4,8 +4,8 @@ import { Loader2, CloudRain, Wind, Thermometer, Droplets } from 'lucide-react';
 
 // Initialize Supabase client
 const supabase = createClient(
-  "https://fbjipuqtyfcojoutdbnw.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZiamlwdXF0eWZjb2pvdXRkYm53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA3NjYxOTYsImV4cCI6MjA0NjM0MjE5Nn0.xxpxQ-fZhWI7HrUKU7-m8ljKqaEhnjM1XPa07O_Lgj4"
+  "SUPABASE_URL",
+  "SUPABASE_KEY"
 );
 
 export default function WeatherDashboard() {
